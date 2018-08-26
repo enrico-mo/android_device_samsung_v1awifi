@@ -47,3 +47,19 @@ BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
 
 # Inherit from exynos5420-common
 include device/samsung/exynos5420-common/BoardConfigCommon.mk
+
+# TWRP specific build flags
+#RECOVERY_VARIANT := twrp
+#TW_THEME := landscape_hdpi
+#DEVICE_RESOLUTION := 2560x1600
+#RECOVERY_SDCARD_ON_DATA := true
+#BOARD_HAS_NO_REAL_SDCARD := true
+#RECOVERY_GRAPHICS_USE_LINELENGTH := true
+#TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+#TW_BRIGHTNESS_PATH := /sys/devices/platform/i2c-gpio.24/i2c-24/24-002c/backlight/panel/brightness
+##TW_MAX_BRIGHTNESS := 255
+#TW_NO_REBOOT_BOOTLOADER := true
+#TW_HAS_DOWNLOAD_MODE := true
+#TW_INCLUDE_CRYPTO := true
+#TW_NO_EXFAT := true
+#TW_NO_EXFAT_FUSE := true
