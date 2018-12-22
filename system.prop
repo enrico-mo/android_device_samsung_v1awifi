@@ -7,3 +7,8 @@ ro.sf.lcd_density=320
 
 # Radio
 ro.radio.noril=yes
+
+# 20181222: Test for optimizing battery life
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+wifi.supplicant_scan_interval=180
